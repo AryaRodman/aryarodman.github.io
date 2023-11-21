@@ -1,0 +1,13 @@
+body{
+    background-image: url(imagess/sekut22.jpg);
+    background-size: cover;
+}
+.JOEDOEL{
+    background-color: gray;
+    opacity: 69%;
+}
+.JOEDOEL h1{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}

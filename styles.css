@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.kepala{
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+body{
+ background-size: cover;
+ background-image: url(imagess/turavis.gif);
+}
+
+
+
+.kepala:hover{
+    color: black;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    height: 75px;
+}
+header{
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id-button{
+    width: 100%;
+    max-width: 430px;
+    background-color: black;
+    margin: 370px auto 20px;
+    padding: 40px  20px 40px;
+    border-radius: 10px;
+    opacity: 64%;
+}
+.id-button p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+h2{
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
