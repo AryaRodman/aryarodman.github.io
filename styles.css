@@ -9,59 +9,118 @@
     justify-content: center;
     color: white;
 }
-
-nav ul {
+li{
     list-style: none;
-    display: flex;
-    gap: 20px;
-    flex-direction: row-reverse;
-    margin-right: 10px;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    margin-top: 18px;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1{
     text-align: center;
     padding-top: 20px;
-    
 }
+
 body{
  background-size: cover;
  background-image: url(imagess/turavis.gif);
 }
 
-
-
 .kepala:hover{
     color: black;
     transition: all .3s ease-in-out;
-    background-color: white;
+    background-color: #FFF4DA;
     height: 75px;
 }
 header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .id-button{
     width: 100%;
     max-width: 430px;
     background-color: black;
-    margin: 370px auto 20px;
-    padding: 40px  20px 40px;
-    border-radius: 10px;
+    /* margin: 40px 500px 0px 500px; */
+    padding: 20px  45px 20px;
+    border-radius: 60px;
     opacity: 64%;
-}
-.id-button p{
     text-align: center;
-    color: white;
+    color: #FFF4DA;
     font-size: 22px;
+   
+    justify-content: center;
 }
+
+.id-button:hover{
+    background-color: #FFF4DA;
+    color: black;
+    opacity: 100%;
+    transition: all .3s ease-in-out;
+}
+
+
 h2{
     color: white;
     font-size: 24px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    margin-top: 330px; 
+}
+a{
+    text-decoration: none;
+}
+#copirait{
+    width: 100%h;
+    height: 150px;
+    background-color: black;
+    margin-top: 83px;
+}
+.ket-footer p{
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+#bigman{
+    text-align: center;
+    color: #FFE4A9;
+    font-size: 27px;
+    top: 11px;
+}
+@media screen and (max-width:750px) {
+    .id-button{
+        /* margin-left: 155px; */
+        
+    }
+    }
+@media screen and (max-width:545px) {
+    body{
+        background-image: url(imagess/youngthug.gif);
+        background-position: 50%;
+    }
+}
+@media screen and (min-width:546px max-width:700px) {
+    body{
+        background-position: 20%;
+    }
+}
+@media screen and (max-width:412px) {
+    body{
+        background-repeat: no-repeat;
+    }
+    footer{
+       padding-top: 162px;
+    }
 }
