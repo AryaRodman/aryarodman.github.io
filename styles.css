@@ -99,19 +99,14 @@ a{
     font-size: 27px;
     top: 11px;
 }
-@media screen and (max-width:750px) {
-    .id-button{
-        /* margin-left: 155px; */
-        
-    }
-    }
+
 @media screen and (max-width:545px) {
     body{
         background-image: url(imagess/youngthug.gif);
         background-position: 50%;
     }
 }
-@media screen and (min-width:546px max-width:700px) {
+@media screen and (min-width:546px) {
     body{
         background-position: 20%;
     }
@@ -122,5 +117,10 @@ a{
     }
     footer{
        padding-top: 162px;
+    }
+}
+@media screen and (min-width:555px ) {
+    body{
+        background-position: 20%;
     }
 }
